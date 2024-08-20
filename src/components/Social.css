@@ -1,0 +1,66 @@
+.social {
+   
+    color: #ffffff;
+     padding: 10px 0;
+   position: fixed;
+    bottom: -40px;
+    width: 100%;
+    padding: 50px;
+  left: 0;
+ 
+    
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #000000;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #00aaff; /* Change to your preferred hover color */
+  }
+  @media (max-width: 576px) {
+    
+  
+    .social-icons a {
+      font-size: 18px;
+      margin: 0 8px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) {
+    
+  
+    .social-icons a {
+      font-size: 20px;
+      margin: 0 8px;
+      
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    
+  
+    .social-icons a {
+      font-size: 20px;
+      margin: 0 10px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    
+    
+    .social-icons a {
+      font-size: 20px;
+      margin: 0 10px;
+    }
+  }

@@ -1,0 +1,106 @@
+/* src/components/Home.css */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background : linear-gradient(to right,#23332495, rgba(29, 22, 22, 0.781)), no-repeat center center fixed; 
+  color: #ffffff;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #61dafb;
+}
+
+/* .voice-assistant {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.start-button, .stop-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.robot {
+  margin-top: 20px;
+  text-align: center;
+  animation: robotEnter 1s ease-out forwards;
+}
+
+.robot-message {
+  background-color: #f8f9fa;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  animation: messageAppear 1.5s ease-out forwards;
+}
+
+.transcript {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+@keyframes robotEnter {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes messageAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+} */
+
+
+
+.profile-pic {
+  width: 250px; /* Adjust size as needed */
+  height: 250px; /* Adjust size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #1a7da0; /* Bright border color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  animation: bounce 5s infinite; /* Bounce animation */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth hover effect */
+}
+
+.profile-pic:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  filter: brightness(1.2); /* Brightness effect on hover */
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
