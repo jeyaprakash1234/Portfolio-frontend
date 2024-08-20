@@ -18,7 +18,7 @@ function Contact() {
     const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-        await axios.post('http://localhost:5000/api/messages', {
+        await axios.post('https://portfolio-backend-ivbu.onrender.com/api/messages', {
           name,
         
           email,
