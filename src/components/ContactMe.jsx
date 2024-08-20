@@ -32,7 +32,7 @@ function Contact() {
         });
         setTimeout(function(){
             window.location.reload();
-        },2500)
+        },2000)
       } catch (error) {
         console.error('Error adding message:', error);
       }
