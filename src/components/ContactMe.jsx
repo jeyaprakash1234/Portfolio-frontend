@@ -34,7 +34,7 @@ function Contact() {
             window.location.reload();
         },2000)
       } catch (error) {
-        console.error('Error adding message:', error);
+        alert.error('Error adding message:', error);
       }
     };
   
