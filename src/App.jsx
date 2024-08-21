@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import Social from './components/Social';
 import Menu from './components/Menu';
 //import VoiceSearch from './components/VoiceSearch';
-
+import Project from './components/project';
 
 function App() {
   return (
@@ -40,6 +40,7 @@ function App() {
           <Route path="/about" element={<AboutMe />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<ContactMe />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
     
     </Router>

@@ -51,6 +51,7 @@ const Menu = () => {
           <Link to="/about" onClick={toggleMenu}>About </Link>
           <Link to="/skills" onClick={toggleMenu}>Skills</Link>
           <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+          <Link to="/project" onClick={toggleMenu}>Project</Link>
          
 
            

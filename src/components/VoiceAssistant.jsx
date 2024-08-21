@@ -1,9 +1,10 @@
 import React,{useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
-import { FaRobot } from 'react-icons/fa';
+import {  FaRobot } from 'react-icons/fa';
 import './VoiceAssistant.css'
  import Swal from 'sweetalert2';
+ import resumePDF from '../assets/jayaprakash 2.pdf';
 
 const VoiceAssistant = () => {
     
@@ -17,10 +18,13 @@ const VoiceAssistant = () => {
       callback: (page) => navigateToPage(page),
     },
     {
-      command: 'stop ',
+      command: 'stop voice assist',
       callback: () => stopListening(),
     },
+    
   ];
+  
+
 
   const {
     transcript,
@@ -55,6 +59,8 @@ const VoiceAssistant = () => {
       about: '/about',
       skills: '/skills',
       contact: '/contact',
+      project :'/project',
+     
     };
 
     const path = pageMap[page.toLowerCase()];

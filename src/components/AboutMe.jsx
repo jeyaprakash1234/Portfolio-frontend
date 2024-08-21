@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './AboutMe.css';
-import resumePDF from '../assets/jayaprakash 2.pdf';
+import resumePDF from '../assets/JP resume Full stack.pdf';
 import { FaVolumeUp , FaStop } from 'react-icons/fa';
 import Menu from './Menu';
 const AboutMe = () => {
