@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 import './Menu.css'
-
+import { FaGithub, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 
 
@@ -42,7 +42,7 @@ const Menu = () => {
       <div className="menu-icon" onClick={toggleMenu}>
         ☰
       </div>
-
+      
 
       {isOpen && (
         <nav className="menu-links">
@@ -52,7 +52,7 @@ const Menu = () => {
           <Link to="/skills" onClick={toggleMenu}>Skills</Link>
           <Link to="/contact" onClick={toggleMenu}>Contact</Link>
          
-         
+        
 
            
        

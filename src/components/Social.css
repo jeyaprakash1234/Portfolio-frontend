@@ -34,6 +34,7 @@
       font-size: 1px;
       margin: 0 8px;
       bottom: 20px;
+      flex-direction: column;
     }
   }
   
@@ -42,9 +43,7 @@
     
   
     .social-icons a {
-      font-size: 20px;
-      margin: 0 8px;
-      
+     display: none;
     }
   }
   
@@ -53,8 +52,7 @@
     
   
     .social-icons a {
-      font-size: 20px;
-      margin: 0 10px;
+      display: none;
       
     }
   }
