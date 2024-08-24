@@ -5,7 +5,7 @@
     width: auto;
     
     background: transparent;
-    color: rgb(186, 184, 184);
+    color: linear-gradient(135deg, #00f260, #0575e6); 
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -20,7 +20,8 @@
     transition: background-color 0.3s, color 0.3s;
   }
   .menu-icon:hover {
-    background-color: #717070;
+    
+    background-color:linear-gradient(135deg, #00f260, #0575e6); 
     color: #d6d0d0;
     border-radius: 10px;
   }
@@ -29,7 +30,7 @@
     display: flex;
     flex-direction: column;
    
-   background-color: #474343;
+   background-color: linear-gradient(135deg, #00f260, #0575e6); 
     position: absolute;
     top: 100%;
     right: 0; 
@@ -52,7 +53,7 @@
     transition: background-color 0.3s, color 0.3s;
   }
   .menu-links a:hover {
-    background-color: #555;
+    background-color:linear-gradient(135deg, #00f260, #0575e6);
     color: #ada9a9;
     border-radius: 3px;
   }

@@ -13,17 +13,18 @@
 
   .social-icons {
     margin-top: 10px;
+    cursor: pointer;
   }
   
   .social-icons a {
-    color: #000000;
+    color: #877b91e3;
     margin: 0 10px;
     font-size: 20px;
     transition: color 0.3s ease;
   }
   
   .social-icons a:hover {
-    color: #00aaff; /* Change to your preferred hover color */
+    color: #dcdcdc; /* Change to your preferred hover color */
   }
   @media (max-width: 576px) {
     

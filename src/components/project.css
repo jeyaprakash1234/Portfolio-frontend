@@ -1,68 +1,170 @@
-/* src/ProjectPage.css */
 
-.project-page {
-    text-align: center;
-    padding: 20px;
-    background-color: #f5f5f5;
+.recent-projects-container {
+
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #00ffdd;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: slideInLeft 1s ease-in-out;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  margin-bottom: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #b8b8d4;
+  animation: slideInRight 1s ease-in-out;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  background-color: #2e2e30;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  position: relative;
+  animation: rotateIn 1s ease-in-out;
+}
+
+.project-item:hover {
+  transform: translateY(-10px) rotate(5deg);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+  /* background-color: #00ffdd; */
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-image {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+}
+
+
+
+.project-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #00ffdd;
+  animation: colorTransition 1s ease-in-out;
+}
+
+.project-year {
+  font-size: 1rem;
+  color: #d1d1e0;
+}
+
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
   }
-  
-  .myproject {
-    font-family: 'Arial', sans-serif;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #008080;
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
-  
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: space-between;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
   }
-  
-  .project-card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: all 0.3s ease;
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
-  
-  .project-card:hover {
-    transform: translateY(-5px);
+}
+
+@keyframes rotateIn {
+  from {
+    opacity: 0;
+    transform: rotate(-360deg);
   }
-  
-  .project-image {
-    width: 100%;
-    height: auto;
+  to {
+    opacity: 1;
+    transform: rotate(0deg);
   }
-  
-  .project-title {
-    font-size: 1.5rem;
-    margin: 10px 0;
+}
+
+/* @keyframes colorTransition {
+  from {
+    color: #d1d1e0;
   }
-  
-  .project-description {
-    font-size: 1rem;
-    padding: 0 10px;
-    color: #666;
+  to {
+    color: #39625c;
   }
-  
-  .project-link {
-    display: inline-block;
-    margin: 15px 0;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+} */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
   }
-  
-  .project-link:hover {
-    background-color: #0056b3;
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
-  
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ 
+
+.website-design {
+  background-image: url('../assets/Laundry.png');
+}
+
+.illustration-design {
+  background-image: url('../assets/web2.png');
+} 
+
