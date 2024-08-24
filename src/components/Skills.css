@@ -11,7 +11,7 @@
   margin: 50px auto;
   font-family: Arial, sans-serif;
   height: 100vh;
-  flex-direction: column;
+  
 
 }
 
@@ -97,6 +97,7 @@
 @media (max-width: 768px) {
   .skills-container {
     padding: 30px;
+    flex-direction: column;
   }
   
   .skills-content h2 {
@@ -121,7 +122,7 @@
   .skills-container {
     padding: 20px;
     background-color: transparent;
-    
+    flex-direction: column;
   }
 
   .skills-content h2 {
