@@ -2,7 +2,8 @@
    
     color: #ffffff;
      padding: 10px 0;
-   position: fixed;
+     position: fixed;
+ 
     bottom: -40px;
     width: 100%;
     padding: 50px;
@@ -26,12 +27,13 @@
   .social-icons a:hover {
     color: #dcdcdc; /* Change to your preferred hover color */
   }
-  @media (max-width: 576px) {
+  @media (min-width: 481px) and (max-width: 768px) {
     
   
     .social-icons a {
-      font-size: 18px;
+      font-size: 1px;
       margin: 0 8px;
+      bottom: 20px;
     }
   }
   
@@ -53,6 +55,7 @@
     .social-icons a {
       font-size: 20px;
       margin: 0 10px;
+      
     }
   }
   

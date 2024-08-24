@@ -91,52 +91,10 @@
   animation: slideInRight 1.2s ease-out;
 }
 
-/* Profile image styling */
-.profile-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 8px solid #ffffff;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-  transition: transform 0.4s ease;
-}
 
-.profile-image:hover {
-  transform: scale(1.1);
-}
 
-/* Decorative elements */
-/* .decorative-elements {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  overflow: hidden;
-}
 
-.circle {
-  width: 600px;
-  height: 600px;
-  background: rgba(255, 255, 255, 0.1);
-  position: absolute;
-  border-radius: 50%;
-  top: -50px;
-  left: -150px;
-  animation: spin 20s linear infinite;
-}
 
-.circle-small {
-  width: 200px;
-  height: 200px;
-  background: rgba(255, 255, 255, 0.2);
-  position: absolute;
-  border-radius: 50%;
-  bottom: -50px;
-  right: -50px;
-  animation: spin 25s linear infinite reverse;
-} */
 
 /* Keyframe Animations */
 @keyframes slideInLeft {
@@ -238,3 +196,100 @@
   background: linear-gradient(135deg, #82e4ff 0%, #cddc39 100%);
 }
 
+
+@media (max-width: 1200px) {
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .left-section {
+    text-align: center;
+  }
+
+  .profile-container {
+    height: auto;
+  }
+
+  .profile-image-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+
+  .circle-1, .circle-2 {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 15px;
+  }
+
+  .intro-text {
+    font-size: 1.5rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .profile-image-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle-1, .circle-2 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-text {
+    font-size: 1.2rem;
+  }
+
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    margin-bottom: 50%;
+   
+  }
+
+  .profile-container{
+   margin-bottom: 20px;
+width: 100%;
+height: 50px;
+background-color: #50237080;
+
+  }
+  .profile-image-wrapper{
+    width: 200px;
+    height: 250px;
+  }
+  
+
+  .circle-1, .circle-2 ,.circle {
+   display: none;
+  }
+}

@@ -11,6 +11,7 @@
   margin: 50px auto;
   font-family: Arial, sans-serif;
   height: 100vh;
+  flex-direction: column;
 
 }
 
@@ -92,3 +93,52 @@
 
 
 
+
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 30px;
+  }
+  
+  .skills-content h2 {
+    font-size: 2rem;
+  }
+
+  .skills-content p {
+    font-size: 0.9rem;
+  }
+
+  .skills-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .robot-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    padding: 20px;
+    background-color: transparent;
+    
+  }
+
+  .skills-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .skills-content p {
+    font-size: 0.8rem;
+  }
+
+  .skills-content h3 {
+    font-size: 1rem;
+  }
+
+  .robot-image {
+    width: 100px;
+    height: 100px;
+    
+  }
+}

@@ -76,7 +76,7 @@ const AboutMe = () => {
               <span className="education-year">2021 - 2024</span>
               <div>
                 <span className="institution">GTN Arts College</span>
-                <span className="course">College</span>
+                <span className="course">B.COM</span>
               </div>
             </div>
            

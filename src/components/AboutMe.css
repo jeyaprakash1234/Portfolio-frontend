@@ -2,6 +2,7 @@
   
   .about-container {
     padding: -10px ;
+    
   }
   
   .about-header {
@@ -60,10 +61,12 @@
   .about-content p {
     font-size: 19px;
     margin-bottom: 30px;
+    hyphens: auto;
     color: #ced2d0;
     opacity: 0;
     animation: fadeInText 2s ease-out forwards;
     transform: translateY(20px);
+    text-align: justify;
   }
   @keyframes fadeInText {
     from {
@@ -263,3 +266,137 @@
   }
   
   
+  /* Base styles (already included) */
+
+/* Responsive Styles */
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+  .about-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image-container {
+    width: 53%;
+    padding: 10px;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .about-content {
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  .education-section {
+    width: 100%;
+  }
+  .resume-section h3 {
+   
+    
+    
+   
+    margin-left: 10px;
+  
+    
+}
+.resume-buttons {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resume-buttons .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+  
+  
+  .read-paragraph-button, .stop-reading-button {
+    font-size: 16px;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .about-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image-container {
+    width: 60%;
+    padding: 12px;
+  }
+  
+  .profile-image {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .about-content {
+    max-width: 80%;
+  }
+  
+  .education-section {
+    width: 100%;
+  }
+  
+  .resume-buttons {
+    flex-direction: row;
+  }
+  
+  .resume-buttons .btn {
+    width: auto;
+    margin-bottom: 0;
+  }
+  
+  .button-container {
+    margin-left: 0;
+  }
+  
+  .read-paragraph-button, .stop-reading-button {
+    font-size: 18px;
+  }
+}
+
+/* Desktops (769px and up) */
+@media (min-width: 769px) {
+  .about-main {
+    flex-direction: row;
+  }
+  
+  .profile-image-container {
+    width: fit-content;
+    padding: 16px;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .about-content {
+    max-width: 50%;
+  }
+  
+  .education-section {
+    width: 100%;
+  }
+  
+  .resume-buttons {
+    flex-direction: row;
+  }
+  
+  .button-container {
+    margin-left: -95%;
+  }
+  
+  .read-paragraph-button, .stop-reading-button {
+    font-size: 20px;
+  }
+}

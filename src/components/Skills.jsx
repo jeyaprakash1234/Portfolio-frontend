@@ -20,8 +20,10 @@ const Skills = () => {
         <h2>Personal Skills</h2>
         <p> 
     <strong>As a versatile web developer, I bring a robust set of skills across various technologies.</strong>
-   
+    <br></br>
+    <strong>My focus is on creating responsive, user-friendly applications with clean code and engaging design.</strong>
 </p>
+
 
         <h3>Frontend Skills</h3>
         <div className="skill">
