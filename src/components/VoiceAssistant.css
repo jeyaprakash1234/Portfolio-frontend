@@ -75,7 +75,8 @@
 
 @media (max-width: 480px) {
   .voice-assistant-button {
-    padding: 20px;
+    padding: 10px;
+    
   }
 
   .robot-icon {
@@ -83,8 +84,8 @@
   }
 
   .voice-assistant-container {
-    bottom: 10px;
+    bottom: 0;
    
-    left: 95px;
+    left: 70%;
   }
 }
