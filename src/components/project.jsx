@@ -22,11 +22,7 @@ const project = () => {
      <a href="https://frontend-project-eight-pi.vercel.app/"><p className="project-year">View Project</p></a>
       </div>
 
-      <div className="project-item">
-        <div className="project-image illustration-design"></div>
-        <h3 className="project-title">Password Reset</h3>
-       <a href="https://password-frontend-six.vercel.app/"> <p className="project-year">View Project</p></a>
-      </div>
+      
     </div>
   </div>
   );

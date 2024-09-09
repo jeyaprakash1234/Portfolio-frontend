@@ -58,46 +58,4 @@
     border-radius: 3px;
   }
   
-  @media (min-width: 481px) and (max-width: 768px) {
-    
   
-    .jp a {
-      display: flex;
-    justify-content: space-between; /* Center the icons horizontally */
-    gap: 10px; /* Space between the icons */
-    padding: 10px;
-
-    }
-  }
-  
-  /* Medium devices (tablets, 768px and up) */
-  @media (max-width: 768px) {
-    
-  
-    .jp a {
-      display: flex;
-    justify-content: space-between;
-   
-    gap: 10px; /* Space between the icons */
-    padding: 10px;
-      
-    }
-  }
-    /* Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-    
-  
-      .jp a {
-        display: none;
-        
-      }
-    }
-    
-    /* Extra large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {
-      
-      
-      .jp a {
-       display: none;
-      }
-    }

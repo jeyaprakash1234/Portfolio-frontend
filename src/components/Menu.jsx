@@ -52,8 +52,6 @@ const Menu = () => {
           <Link to="/skills" onClick={toggleMenu}>Skills</Link>
           <Link to="/contact" onClick={toggleMenu}>Contact</Link>
          
-        
-
            
        
         </nav>
