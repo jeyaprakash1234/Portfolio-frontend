@@ -24,6 +24,7 @@
   margin-right: auto;
   color: #b8b8d4;
   animation: slideInRight 1s ease-in-out;
+  
 }
 
 .projects-grid {
@@ -82,53 +83,24 @@
   color: #d1d1e0;
 }
 
-
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
 @keyframes rotateIn {
-  from {
+  from{
     opacity: 0;
     transform: rotate(-360deg);
   }
-  to {
+  to{
     opacity: 1;
     transform: rotate(0deg);
   }
 }
 
-/* @keyframes colorTransition {
-  from {
-    color: #d1d1e0;
-  }
-  to {
-    color: #39625c;
-  }
-} */
 
-@keyframes fadeIn {
+
+
+/* @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: scale(0.95);
+    transform: scale(0.5);
   }
   to {
     opacity: 1;
@@ -156,7 +128,7 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
 
  
 

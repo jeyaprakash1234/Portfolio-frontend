@@ -2,7 +2,7 @@
 import React, {  useState } from 'react';
 import './AboutMe.css';
 import profilePic from '../assets/JP.png';
-import resumePDF from '../assets/JP resume Full stack.pdf';
+import resumePDF from '../assets/JP resume.pdf';
 import { FaVolumeUp , FaStop } from 'react-icons/fa';
 import Menu from './Menu';
 
