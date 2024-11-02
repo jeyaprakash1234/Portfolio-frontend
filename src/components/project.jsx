@@ -20,13 +20,15 @@ const project = () => {
         <div className="project-image website-design"></div>
         <h3 className="project-title">Laundry Website</h3>
      <a href="https://frontend-project-eight-pi.vercel.app/"><p className="project-year">View Project</p></a>
-      </div>
-illustration-design
 
-              <div className="project-image illustration-design  "></div>
+                      <div className="project-image illustration-design  "></div>
         <h3 className="project-title">Food Delivery </h3>
      <a href="https://food-delivery-two-neon.vercel.app/"><p className="project-year">View Project</p></a>
+    
       </div>
+
+
+
       
     </div>
   </div>
